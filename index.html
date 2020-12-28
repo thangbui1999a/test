@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>Socket.IO chat</title>
+
+</head>
+<body>
+<!-- 
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+  </script> -->
+
+  <script>
+       // check server
+        // Create WebSocket connection.
+        const socket = new WebSocket('ws://localhost:8080');
+
+        // Connection opened
+        socket.addEventListener('open', function (event) {
+            socket.send('Hello Server!');
+        });
+    
+  </script>
+</body>
+</html>
