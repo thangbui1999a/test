@@ -28,10 +28,17 @@ jobs:
         LAST_NAME: Octocat
       run: |
         echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
-    # - run: |
-    - run: mkdir bthang
-    - run: cd bthang
-    - run: echo "this is file1" > file1.txt
-    - run: cat file1.txt
-    - run: cd ..
+    - run: |
+        mkdir bthang
+        cd bthang
+        echo "this is file1" > file1.txt
+        cat file1.txt
+        cd ..
     - run: cat bthang/file1.txt
+
+    - name: my upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: |
+            bthang
