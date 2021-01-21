@@ -37,8 +37,8 @@ jobs:
     - run: cat bthang/file1.txt
 
     - name: my upload artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: my-artifact
-          path: |
-            bthang
+      uses: actions/upload-artifact@v2
+      with:
+        name: my-artifact
+        path: |
+          bthang
