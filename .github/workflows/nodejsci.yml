@@ -34,4 +34,4 @@ jobs:
         echo "this is file1" > file1.txt
         cat file1.txt
         cd ..
-        cat bthang/file1.txt
+    - run: cat bthang/file1.txt
