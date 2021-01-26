@@ -15,7 +15,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/qttq23"><img src="https://avatars.githubusercontent.com/u/50412685?v=4?s=100" width="100px;" alt=""/><br /><sub><b>qttq23</b></sub></a><br /><a href="https://github.com/thangbui1999a/test/commits?author=qttq23" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/qttq23"><img src="https://avatars.githubusercontent.com/u/50412685?v=4?s=100" width="100px;" alt=""/><br /><sub><b>qttq23</b></sub></a><br /><a href="https://github.com/thangbui1999a/test/commits?author=qttq23" title="Code">💻</a> <a href="https://github.com/thangbui1999a/test/pulls?q=is%3Apr+reviewed-by%3Aqttq23" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
