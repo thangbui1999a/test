@@ -13,6 +13,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "huynguyen2908",
+      "name": "huynguyen2908",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25784067?v=4",
+      "profile": "https://github.com/huynguyen2908",
+      "contributions": [
+        "doc",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
